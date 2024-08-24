@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: #f1f1f1;
+}
+.flex-container {
+    background-color: rgb(17, 150, 119);
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+/* 
+En base al eje principal
+row -> fila
+row-revers: espejo
+column
+flex-start: inicio
+flex-end: fin
+center
+space-between: distribuye con la misma cantidad de espacio
+space-around
+space-evenly
+*/
