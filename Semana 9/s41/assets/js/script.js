@@ -22,8 +22,8 @@ console.log('unshif')
 nums.unshift(0);
 console.log(nums);
 
-// arr.shif() -> elimina el primer valor del arrays
-console.log('shif')
+// arr.shift() -> elimina el primer valor del arrays
+console.log('shift')
 nums.shift();
 console.log(nums);
 
