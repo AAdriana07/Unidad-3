@@ -42,8 +42,8 @@ const familia = {
                 edad: 77,
                 hobbie: 'ver películas',
             },
-        ]
-    }
+        ],
+    },
 };
 
 console.log(familia);
